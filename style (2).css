@@ -1,0 +1,35 @@
+.password-generator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.password-length {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.password-length label {
+  margin-right: 5px;
+}
+
+.password-length input {
+  width: 50px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.password-options {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.password-options label {
+  margin-right: 5px;
+}
+
+.password-options input[type="checkbox"] {
